@@ -1,0 +1,4 @@
+mvn clean deploy -DclientID=a7bb0f5e3254498883c9cbcf01df88b6 -DclientSecret=8364290899734b2e8F7814e32123ef42 -s settings.xml
+mvn clean deploy -DmuleDeploy -DclientID=a7bb0f5e3254498883c9cbcf01df88b6 -DclientSecret=8364290899734b2e8F7814e32123ef42 -s settings.xml
+
+mvn clean deploy -DmuleDeploy -DtargetName=Cloudhub-US-East-2 -Denvironment=Sandbox -Dreplicas=1 -DvCores=0.1 -DappName=ch2-mule-demo -DclientID=a7bb0f5e3254498883c9cbcf01df88b6 -DclientSecret=52f2c1bA58014a52B687EB08Fe5935A6 -s settings.xml
